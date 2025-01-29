@@ -1,0 +1,45 @@
+/* Apply global styles */
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Center the card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin: 15px 0;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+}
